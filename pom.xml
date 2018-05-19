@@ -26,7 +26,19 @@
 		<kotlin.version>1.1.2</kotlin.version>
 	</properties>
 
+	<repositories>
+		<repository>
+			<id>central</id>
+			<url>http://jcenter.bintray.com</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
+		<dependency>
+			<groupId>khttp</groupId>
+			<artifactId>khttp</artifactId>
+			<version>0.1.0</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
